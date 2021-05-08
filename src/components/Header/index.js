@@ -6,7 +6,7 @@ const Header = () => (
       <h1>Employee Directory</h1>
       <p>
           Welcome to Employee Directory! <br></br>
-        Please use the search box below to find employees by name or click on the column headings to sort.
+        <br></br>Please use the search box below to find employees by name or click on the column headings to sort.
       </p>
     </div>
   );
