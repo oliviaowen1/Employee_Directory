@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import DataTable from "../DataTable";
-// import Nav from "../Nav";
+import Nav from "../Nav";
 import API from "../../utils/API";
 import "./style.css";
 import DataAreaContext from "../../utils/DataAreaContext"
@@ -90,7 +90,7 @@ return b[heading]-  a[heading];
         <DataAreaContext.Provider
           value={{ developerState, headingSearchChange, headingSort }}
         >
-          {/* <Nav /> */}
+          <Nav />
           <div className="data-area">
             {developerState.filteredUsers.length > 0 
     ? <DataTable />
