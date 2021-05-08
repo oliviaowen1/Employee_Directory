@@ -2,3 +2,6 @@
     text-transform: capitalize;
     background-color:palevioletred;
 }
+img {
+    border-radius: 25%;
+}
