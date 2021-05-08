@@ -15,9 +15,7 @@ const SearchName = () => {
                     aria-label="Search"
                     onChange={e => context.headingSearchChange(e)}
                 />
-                <button className="btn my-2 my-sm-0" type="submit">
-                    Search
-                 </button>
+                
             </form>
         </div>
     );
